@@ -3,86 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOVI Mobile</title>
+    <title>VisuAll — Tecnologia para Todos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header id="inicio">
-        <h1>JOVI Mobile</h1>
-        <p>Sucesso no Mundo. Agora no Brasil.</p>
-    </header>
-
-   <nav>
-    <div>
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#produtos">Produtos</a>
-        <a href="#contato">Contato</a>
-    </div>
-    <div>
-        <a href="#login" class="btn-login">Login</a>
-        <a href="#cadastro" class="btn-cadastro">Cadastre-se</a>
-    </div>
-</nav>
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <span class="nav-logo">Visu<span class="amarelo">All</span></span>
+        <div class="nav-links">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#equipe">Equipe</a>
+            <a href="#acessibilidade">Acessibilidade</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <div class="nav-botoes">
+            <a href="#contato" class="btn-login">Login</a>
+            <a href="#contato" class="btn-cadastro">Cadastre-se</a>
+        </div>
+    </nav>
 
     <main>
 
-        <section id="sobre">
-            <h2>Sobre a JOVI</h2>
-            <p>A JOVI é uma marca de smartphones da Vivo Mobile Communication, a maior fabricante de celulares da China. Presente em mais de 60 países, com mais de 500 milhões de usuários no mundo. No Brasil, os aparelhos são produzidos na Zona Franca de Manaus.</p>
+        <!-- HERO -->
+        <section id="inicio" class="hero">
+            <p class="hero-tag">✦ Desafio JOVI 2026</p>
+            <h1>Visu<span class="amarelo">All</span></h1>
+            <p class="hero-frase">Inteligência Artificial a serviço da <span class="amarelo">inclusão</span> e da <span class="amarelo">acessibilidade</span>.</p>
+            <a href="#sobre" class="btn-principal">Conheça o Projeto</a>
         </section>
 
-        <section id="produtos">
-            <h2>Nossos Produtos</h2>
+        <!-- SOBRE O PROJETO -->
+        <section id="sobre" class="secao">
+            <h2>Sobre o <span class="amarelo">Projeto</span></h2>
+            <p>O VisuAll é um projeto desenvolvido para o desafio da marca JOVI, com o objetivo de usar inteligência artificial para promover inclusão social. Nossa solução é voltada para pessoas com deficiência visual e auditiva, oferecendo tecnologia acessível, moderna e eficiente.</p>
+            <p>Acreditamos que a tecnologia deve ser para todos — sem exceção. O VisuAll nasce com essa missão: quebrar barreiras e conectar pessoas ao mundo digital.</p>
 
-            <article>
-                <h3>JOVI V50 5G</h3>
-                <p>O top de linha da JOVI no Brasil.</p>
-                <ul>
-                    <li>Câmera de 50 MP com sensor Sony</li>
-                    <li>Bateria de 6.500 mAh</li>
-                    <li>Carregamento rápido de 90W</li>
-                    <li>Tela POLED de 6,77 polegadas</li>
-                    <li>Conectividade 5G</li>
-                </ul>
-            </article>
-
-            <article>
-                <h3>JOVI V50 Lite 5G</h3>
-                <p>Ótimo custo-benefício por R$ 3.199.</p>
-                <ul>
-                    <li>Câmera de 50 MP com inteligência artificial</li>
-                    <li>8 GB de RAM e 256 GB de armazenamento</li>
-                    <li>Bateria de 6.500 mAh</li>
-                    <li>Design ultrafino de 7,79 mm</li>
-                    <li>Conectividade 5G</li>
-                </ul>
-            </article>
+            <div class="cards-info">
+                <div class="card-info">
+                    <span class="icone">🤖</span>
+                    <h3>Inteligência Artificial</h3>
+                    <p>IA avançada para interpretar o mundo ao redor e traduzir em informação acessível.</p>
+                </div>
+                <div class="card-info">
+                    <span class="icone">♿</span>
+                    <h3>Acessibilidade Total</h3>
+                    <p>Desenvolvido para pessoas cegas e surdas, com foco em usabilidade e inclusão.</p>
+                </div>
+                <div class="card-info">
+                    <span class="icone">🌍</span>
+                    <h3>Impacto Social</h3>
+                    <p>Tecnologia com propósito: transformar vidas e ampliar oportunidades para todos.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="diferenciais">
-            <h2>Por que escolher a JOVI?</h2>
-            <ul>
-                <li>📸 Câmeras em parceria com a ZEISS</li>
-                <li>🏭 Produção nacional em Manaus</li>
-                <li>⭐ Pacote 5 Estrelas — até 5 anos de suporte</li>
-                <li>🌐 Presente em mais de 60 países</li>
-            </ul>
+        <!-- ACESSIBILIDADE -->
+        <section id="acessibilidade" class="secao secao-escura">
+            <h2>Acessibilidade para <span class="amarelo">Todos</span></h2>
+            <p>O VisuAll foi criado pensando nas necessidades reais de pessoas com deficiência visual e auditiva. Nossas funcionalidades incluem:</p>
+
+            <div class="cards-info">
+                <div class="card-info">
+                    <span class="icone">👁️</span>
+                    <h3>Para Pessoas Cegas</h3>
+                    <ul>
+                        <li>Descrição de imagens por IA</li>
+                        <li>Leitura de textos em voz alta</li>
+                        <li>Navegação por comandos de voz</li>
+                        <li>Identificação de objetos e pessoas</li>
+                    </ul>
+                </div>
+                <div class="card-info">
+                    <span class="icone">👂</span>
+                    <h3>Para Pessoas Surdas</h3>
+                    <ul>
+                        <li>Transcrição de áudio em tempo real</li>
+                        <li>Tradução para Libras</li>
+                        <li>Legendas automáticas</li>
+                        <li>Alertas visuais de sons</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>📧 contato@jovimobile.com.br</p>
-            <p>📞 0800 000 JOVI</p>
-            <p>🏪 Disponível na Casas Bahia e Mercado Livre</p>
+        <!-- INOVAÇÃO E IA -->
+        <section id="inovacao" class="secao">
+            <h2>Inovação e <span class="amarelo">IA</span></h2>
+            <p>Utilizamos as tecnologias mais modernas do mercado para entregar uma experiência única e acessível. O VisuAll é mais do que um app — é uma ponte entre o mundo físico e digital para quem mais precisa.</p>
+
+            <div class="cards-info">
+                <div class="card-info">
+                    <span class="icone">⚡</span>
+                    <h3>Processamento em tempo real</h3>
+                    <p>Respostas instantâneas para garantir a melhor experiência ao usuário.</p>
+                </div>
+                <div class="card-info">
+                    <span class="icone">🔒</span>
+                    <h3>Segurança e privacidade</h3>
+                    <p>Todos os dados são protegidos. Sua privacidade é nossa prioridade.</p>
+                </div>
+                <div class="card-info">
+                    <span class="icone">📱</span>
+                    <h3>Compatível com JOVI</h3>
+                    <p>Desenvolvido para rodar com máxima performance nos smartphones JOVI.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- EQUIPE -->
+        <section id="equipe" class="secao secao-escura">
+            <h2>Nossa <span class="amarelo">Equipe</span></h2>
+            <p>Conheça os desenvolvedores por trás do VisuAll.</p>
+
+            <div class="cards-equipe">
+                <div class="card-membro">
+                    <div class="avatar">JV</div>
+                    <h3>João Victor Pereira Gimenes</h3>
+                    <p>Desenvolvedor</p>
+                </div>
+                <div class="card-membro">
+                    <div class="avatar">JD</div>
+                    <h3>Juan Duarte</h3>
+                    <p>Desenvolvedor</p>
+                </div>
+                <div class="card-membro">
+                    <div class="avatar">JC</div>
+                    <h3>Julio Cesar da Silva Cocco</h3>
+                    <p>Desenvolvedor</p>
+                </div>
+                <div class="card-membro">
+                    <div class="avatar">RB</div>
+                    <h3>Rafael Boletini de Oliveira</h3>
+                    <p>Desenvolvedor</p>
+                </div>
+                <div class="card-membro">
+                    <div class="avatar">VR</div>
+                    <h3>Victor Rossi Sales Zanandre</h3>
+                    <p>Desenvolvedor</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="secao">
+            <h2>Entre em <span class="amarelo">Contato</span></h2>
+            <p>Quer saber mais sobre o VisuAll? Fale com a gente!</p>
+
+            <form class="formulario">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Seu nome" />
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="seu@email.com" />
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" rows="4" placeholder="Sua mensagem..."></textarea>
+                </div>
+                <button type="submit" class="btn-principal">Enviar</button>
+            </form>
         </section>
 
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 - JOVI Mobile</p>
+        <p><span class="amarelo">Visu<strong>All</strong></span> — Tecnologia para Todos</p>
+        <p>Desenvolvido para o Desafio JOVI 2026 · Engenharia de Software · FIAP</p>
+        <p>&copy; 2026 VisuAll. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
